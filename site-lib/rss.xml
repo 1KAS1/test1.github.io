@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian_Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Obsidian_Vault</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 07 Aug 2025 22:20:18 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 07 Aug 2025 22:19:55 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Home]]></title><description><![CDATA[<a data-tooltip-position="top" aria-label="Структура проекта КАНВ800Ц12 в SVN.canvas" data-href="Структура проекта КАНВ800Ц12 в SVN.canvas" href="работа-кв-системы/проект-канв800ц12/структура-проекта-канв800ц12-в-svn.html" class="internal-link" target="_self" rel="noopener nofollow">Структура проекта КАНВ800Ц12 в SVN</a><br><a data-tooltip-position="top" aria-label="Структурная схема КАНВ800Ц12.canvas" data-href="Структурная схема КАНВ800Ц12.canvas" href="работа-кв-системы/проект-канв800ц12/структурная-схема-канв800ц12.html" class="internal-link" target="_self" rel="noopener nofollow">Структурная схема КАНВ800Ц12</a><br><a data-tooltip-position="top" aria-label="Алгоритм branches.canvas" data-href="Алгоритм branches.canvas" href="работа-кв-системы/проект-канв800ц12/алгоритм-branches.html" class="internal-link" target="_self" rel="noopener nofollow">Алгоритм branches</a>]]></description><link>home.html</link><guid isPermaLink="false">Home.md</guid><pubDate>Thu, 07 Aug 2025 22:19:34 GMT</pubDate></item><item><title><![CDATA[Структура проекта КАНВ800Ц12 в SVN]]></title><description><![CDATA[Пример хранения файлов в ветке tags проекта КАНВ800Ц12Пример хранения файлов в ветке branches проекта КАНВ800Ц12PB_KANV800C12_VX_GerberPB_KANV800C12_VX_NC DrillCMB_KANV800C12_VX_Pick Place - Папка хранения файла координат расположения элементов на печатной платеCMB_KANV800C12_VX.XX
+CMB_KANV800C12_VX_NC DrillCMB_KANV800C12_VX_GerberOutput for CMB_KANV800C12_VX - Папка хранения файлов для изготовления печатной платыPDF CEB_KANV800C12_VX - Папка хранения файлов для сборки изделияBOM CEB_KANV800C12_VX - Папка хранения файла перечня печатной платыCEB_KANV800C12ПЭ3_VX.XX.xls - Файл перечня печатной платы
+BOM CMB_KANV800C12_VX - Папка хранения файла перечня печатной платыCMB_KANV800C12ПЭ3_VX.XX.xls - Файл перечня печатной платы
+PDF CMB_KANV800C12_VX - Папка хранения файлов для сборки изделияCCB_KANV800C12_VX_Pick Place - Папка хранения файла координат расположения элементов на печатной платеCCB_KANV800C12_VX.XX
+PB_KANV800C12_VX_Pick Place - Папка хранения файла координат расположения элементов на печатной платеPB_KANV800C12_VX.XX
+CCB_KANV800C12_VX_GerberOutput for PB_KANV800C12_VX - Папка хранения файлов для изготовления печатной платыKANV800C12_VX - Заглавная папка проекта1 KANV800C12_VX - Папка мульти-KANV800C12_VX.PrjMbd:
+- _VX.MbsDoc - файл мультисхемы
+- _VX .MbaDoc- файл мультиплаты (общая сборка печатной платы)PDF PB_KANV800C12_VX - Папка хранения файлов для сборки изделияBOM PB_KANV800C12_VX - Папка хранения файла перечня печатной платыPB_KANV800C12ПЭ3_VX.XX.xls - Файл перечня печатной платы
+Output for CEB_KANV800C12_VX - Папка хранения файлов для изготовления печатной платы<a href=".?query=tag:trunk" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#trunk">#trunk</a> - ветка хранения основного проекта (не имеет версионности, так как постоянно изменяется)ветка хранения ревизий проекта (итоговых законченных версий)Алгоритм tags.canvasАлгоритм trunk.canvas2 PB_KANV800C12_VX - Папка силовой платы (Power board)PB_KANV800C12_VX.PrjPcb- PB_KANV800C12_VX.SchDoc - Файлы электрических принципиальных схем
+- PB_KANV800C12_VX.PcbDoc - Файл печатной платы
+- PANEL_PB_KANV800C12_VX.PcbDoc - Файл панели печатной платы
+- PB_KANV800C12_VX.OutJob - Файл для выгрузки необходимой документации для изготовления изделия
+- PB_KANV800C12_VX.PCBDwf - Файл для оформления сборочного чертежа печатной платы
+8 CEB_KANV800C12_VX - Папка платы выхода (Card Edge board)CEB_KANV800C12_VX.PrjPcb:- CEB_KANV800C12_VX.SchDoc - Файлы электрических принципиальных схем
+- CEB_KANV800C12_VX.PcbDoc - Файл печатной платы
+- PANEL_CEB_KANV800C12_VX.PcbDoc - Файл панели печатной платы
+- CEB_KANV800C12_VX.OutJob - Файл для выгрузки необходимой документации для изготовления изделия
+- CEB_KANV800C12_VX.PCBDwf - Файл для оформления сборочного чертежа печатной платы
+7 CMB_KANV800C12_VX - Папка платы синфазного дросселя (Common mode board)CMB_KANV800C12_VX.PrjPcb:- CMB_KANV800C12_VX.SchDoc - Файлы электрических принципиальных схем
+- CMB_KANV800C12_VX.PcbDoc - Файл печатной платы
+- PANEL_CMB_KANV800C12_VX.PcbDoc - Файл панели печатной платы
+- CMB_KANV800C12_VX.OutJob - Файл для выгрузки необходимой документации для изготовления изделия
+- CMB_KANV800C12_VX.PCBDwf - Файл для оформления сборочного чертежа печатной платы
+CEB_KANV800C12_VX_Pick Place - Папка хранения файла координат расположения элементов на печатной платеCEB_KANV800C12_VX.XX
+CEB_KANV800C12_VX_NC DrillCEB_KANV800C12_VX_GerberCEB_KANV800C12_VX_GerberCEB_KANV800C12_VX_NC DrillPDF CEB_KANV800C12_VX - Папка хранения файлов для сборки изделияBOM CEB_KANV800C12_VX - Папка хранения файла перечня печатной платыCEB_KANV800C12ПЭ3_VX.XX.xls - Файл перечня печатной платы Трассировка печатной платы
+Подготовка выходных файлов
+Оформление КД
+Up Подготовка Э3
+Оформление ПЭ3
+Процесс работы с проектами в SVN8 CEB_KANV800C12_VX - Папка платы выхода (Card Edge board)CEB_KANV800C12_VX.PrjPcb:- CEB_KANV800C12_VX.SchDoc - Файлы электрических принципиальных схем
+- CEB_KANV800C12_VX.PcbDoc - Файл печатной платы
+- PANEL_CEB_KANV800C12_VX.PcbDoc - Файл панели печатной платы
+- CEB_KANV800C12_VX.OutJob - Файл для выгрузки необходимой документации для изготовления изделия
+- CEB_KANV800C12_VX.PCBDwf - Файл для оформления сборочного чертежа печатной платы
+Заглавная папка линейки проектов объединенных по одинаковым признакамKANV800C12_VX - Заглавная папка проектаOutput for CEB_KANV800C12_VX - Папка хранения файлов для изготовления печатной платыPDF SRB_KANV800C12_VX - Папка хранения файлов для сборки изделияВетка для хранения эксперимента проекта. Используется в качестве проверки какого-либо функционала или варианта изделия.<br>
+<a data-tooltip-position="top" aria-label="Алгоритм branches.canvas" data-href="Алгоритм branches.canvas" href="работа-кв-системы/проект-канв800ц12/алгоритм-branches.html" class="internal-link" target="_self" rel="noopener nofollow">Алгоритм</a> по работеЗаглавная папка одного проектаАлгоритм branches.canvasSRB_KANV800C12_VX_Pick Place - Папка хранения файла координат расположения элементов на печатной платеSRB_KANV800C12_VX.XX
+BCB_KANV800C12_VX_GerberBCB_KANV800C12_VX_NC DrillSRB_KANV800C12_VX_GerberSRB_KANV800C12_VX_NC DrillBCB_KANV800C12_VX_Pick Place - Папка хранения файла координат расположения элементов на печатной платеBCB_KANV800C12_VX.XX
+PDF CCB_KANV800C12_VX - Папка хранения файлов для сборки изделияBOM CCB_KANV800C12_VX - Папка хранения файла перечня печатной платыPB_KANV800C12ПЭ3_VX.XX.xls - Файл перечня печатной платы
+6 BCB_KANV800C12_VX - Папка платы понижающего преобразователя (Buck converter board)BCB_KANV800C12_VX.PrjPcb:- BCB_KANV800C12_VX.SchDoc - Файлы электрических принципиальных схем
+- BCB_KANV800C12_VX.PcbDoc - Файл печатной платы
+- PANEL_BCB_KANV800C12_VX.PcbDoc - Файл панели печатной платы
+- BCB_KANV800C12_VX.OutJob - Файл для выгрузки необходимой документации для изготовления изделия
+- BCB_KANV800C12_VX.PCBDwf - Файл для оформления сборочного чертежа печатной платы
+PDF ICB_KANV800C12_VX - Папка хранения файлов для сборки изделияOutput for BCB_KANV800C12_VX - Папка хранения файлов для изготовления печатной платыBOM BCB_KANV800C12_VX - Папка хранения файла перечня печатной платыBCB_KANV800C12ПЭ3_VX.XX.xls - Файл перечня печатной платы
+ICB_KANV800C12_VX_NC DrillCCB_KANV800C12_VX_NC DrillICB_KANV800C12_VX_Pick Place - Папка хранения файла координат расположения элементов на печатной платеICB_KANV800C12_VX.XX
+ICB_KANV800C12_VX_GerberOutput for CCB_KANV800C12_VX - Папка хранения файлов для изготовления печатной платы3 CCB_KANV800C12_VX - Папка платы управления корректором (Corrector control board)CCB_KANV800C12_VX.PrjPcb:- CCB_KANV800C12_VX.SchDoc - Файлы электрических принципиальных схем
+- CCB_KANV800C12_VX.PcbDoc - Файл печатной платы
+- PANEL_CCB_KANV800C12_VX.PcbDoc - Файл панели печатной платы
+- CCB_KANV800C12_VX.OutJob - Файл для выгрузки необходимой документации для изготовления изделия
+- CCB_KANV800C12_VX.PCBDwf - Файл для оформления сборочного чертежа печатной платы
+BOM SRB_KANV800C12_VX - Папка хранения файла перечня печатной платыSRB_KANV800C12ПЭ3_VX.XX.xls - Файл перечня печатной платы
+Output for SRB_KANV800C12_VX - Папка хранения файлов для изготовления печатной платыOutput for ICB_KANV800C12_VX - Папка хранения файлов для изготовления печатной платыBOM ICB_KANV800C12_VX - Папка хранения файла перечня печатной платыPB_KANV800C12ПЭ3_VX.XX.xls - Файл перечня печатной платы
+PDF BCB_KANV800C12_VX - Папка хранения файлов для сборки изделия4 ICB_KANV800C12_VX - Папка платы управления преобразователем (Inverter control board)ICB_KANV800C12_VX.PrjPcb:- ICB_KANV800C12_VX.SchDoc - Файлы электрических принципиальных схем
+- ICB_KANV800C12_VX.PcbDoc - Файл печатной платы
+- PANEL_ICB_KANV800C12_VX.PcbDoc - Файл панели печатной платы
+- ICB_KANV800C12_VX.OutJob - Файл для выгрузки необходимой документации для изготовления изделия
+- ICB_KANV800C12_VX.PCBDwf - Файл для оформления сборочного чертежа печатной платы
+5 SRB_KANV800C12_VX - Папка платы синхронного выпрямителя (synchronous rectifier board)SRB_KANV800C12_VX.PrjPcb:- SRB_KANV800C12_VX.SchDoc - Файлы электрических принципиальных схем
+- SRB_KANV800C12_VX.PcbDoc - Файл печатной платы
+- PANEL_SRB_KANV800C12_VX.PcbDoc - Файл панели печатной платы
+- SRB_KANV800C12_VX.OutJob - Файл для выгрузки необходимой документации для изготовления изделия
+- SRB_KANV800C12_VX.PCBDwf - Файл для оформления сборочного чертежа печатной платы
+]]></description><link>работа-кв-системы/проект-канв800ц12/структура-проекта-канв800ц12-в-svn.html</link><guid isPermaLink="false">Работа КВ-Системы/Проект КАНВ800Ц12/Структура проекта КАНВ800Ц12 в SVN.canvas</guid><pubDate>Thu, 07 Aug 2025 21:29:03 GMT</pubDate></item><item><title><![CDATA[Структурная схема КАНВ800Ц12]]></title><description><![CDATA[Субблоки КАНВ800Ц12КД на&nbsp;Плата синхронного выпрямителя КАНВ800Ц12Моточные изделия КАНВ800Ц12КД на&nbsp;Плата силовая КАНВ800Ц12Программное обеспечениеАНЖЕ.469635.221Плата силовая КАНВ800Ц12Э3, ПЭ3, СБн.н. 1 штЭ3
+Оформлено
+Исправлено
+Сдано
+ПЭ3
+Оформлено
+Исправлено
+Сдано
+СБ
+Оформлено
+Исправлено
+Сдано
+АНЖЕ.469635.216Плата синхронного выпрямителя КАНВ800Ц12Э3, ПЭ3, СБн.н. 1 штТех докМодуль КАНВ800Ц12КорпТЗ<a data-tooltip-position="top" aria-label="file:///C:/Users/akushnarev.KWS/Documents/Altium/New%20SVN/KANV/KANV800C12/tags/KANV800C12_V1/5%20SRB_KANV800C12_V1/PDF%20SRB_KANV800C12_V1/%D0%90%D0%9D%D0%96%D0%95.469635.216%D0%AD3-%D0%9F%D0%BB%D0%B0%D1%82%D0%B0%20%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B2%D1%8B%D0%BF%D1%80%D1%8F%D0%BC%D0%B8%D1%82%D0%B5%D0%BB%D1%8F%20%D0%9A%D0%90%D0%9D%D0%92800%D0%A612_1.00.PDF" rel="noopener nofollow" class="external-link is-unresolved" href="file:/C:/Users/akushnarev.KWS/Documents/Altium/New SVN/KANV/KANV800C12/tags/KANV800C12_V1/5 SRB_KANV800C12_V1/PDF SRB_KANV800C12_V1/АНЖЕ.469635.216Э3-Плата синхронного выпрямителя КАНВ800Ц12_1.00.PDF" target="_self">АНЖЕ.469635.216Э3-Плата синхронного выпрямителя КАНВ800Ц12</a>
+Оформлено
+Исправлено
+Сдано
+<br><a data-tooltip-position="top" aria-label="file:///C:/Users/akushnarev.KWS/Documents/Altium/New%20SVN/KANV/KANV800C12/tags/KANV800C12_V1/5%20SRB_KANV800C12_V1/PDF%20SRB_KANV800C12_V1/%D0%90%D0%9D%D0%96%D0%95.469635.216%D0%9F%D0%AD3-%D0%9F%D0%BB%D0%B0%D1%82%D0%B0%20%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B2%D1%8B%D0%BF%D1%80%D1%8F%D0%BC%D0%B8%D1%82%D0%B5%D0%BB%D1%8F%20%D0%9A%D0%90%D0%9D%D0%92800%D0%A612_1.00.pdf" rel="noopener nofollow" class="external-link is-unresolved" href="file:/C:/Users/akushnarev.KWS/Documents/Altium/New SVN/KANV/KANV800C12/tags/KANV800C12_V1/5 SRB_KANV800C12_V1/PDF SRB_KANV800C12_V1/АНЖЕ.469635.216ПЭ3-Плата синхронного выпрямителя КАНВ800Ц12_1.00.pdf" target="_self">АНЖЕ.469635.216ПЭ3-Плата синхронного выпрямителя КАНВ800Ц12</a>
+Оформлено
+Исправлено
+Сдано
+<br><a data-tooltip-position="top" aria-label="file:///C:/Users/akushnarev.KWS/Documents/Altium/New%20SVN/KANV/KANV800C12/tags/KANV800C12_V1/5%20SRB_KANV800C12_V1/PDF%20SRB_KANV800C12_V1/%D0%90%D0%9D%D0%96%D0%95.469635.216%D0%A1%D0%91-%D0%9F%D0%BB%D0%B0%D1%82%D0%B0%20%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B2%D1%8B%D0%BF%D1%80%D1%8F%D0%BC%D0%B8%D1%82%D0%B5%D0%BB%D1%8F%20%D0%9A%D0%90%D0%9D%D0%92800%D0%A612_1.00.pdf" rel="noopener nofollow" class="external-link is-unresolved" href="file:/C:/Users/akushnarev.KWS/Documents/Altium/New SVN/KANV/KANV800C12/tags/KANV800C12_V1/5 SRB_KANV800C12_V1/PDF SRB_KANV800C12_V1/АНЖЕ.469635.216СБ-Плата синхронного выпрямителя КАНВ800Ц12_1.00.pdf" target="_self">АНЖЕ.469635.216СБ-Плата синхронного выпрямителя КАНВ800Ц12</a>
+Оформлено
+Исправлено
+Сдано
+]]></description><link>работа-кв-системы/проект-канв800ц12/структурная-схема-канв800ц12.html</link><guid isPermaLink="false">Работа КВ-Системы/Проект КАНВ800Ц12/Структурная схема КАНВ800Ц12.canvas</guid><pubDate>Thu, 07 Aug 2025 21:06:09 GMT</pubDate></item><item><title><![CDATA[Алгоритм branches]]></title><description><![CDATA[данетАлгоритм работы с branchesПеренести проект в папку trunkУдалить проект из папки branchesУдалить проект из папки branches<a href=".?query=tag:branches" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#branches">#branches</a>Папка проектаФайлы проектаРабота с файлами проектаИзменения актуальны ?]]></description><link>работа-кв-системы/проект-канв800ц12/алгоритм-branches.html</link><guid isPermaLink="false">Работа КВ-Системы/Проект КАНВ800Ц12/Алгоритм branches.canvas</guid><pubDate>Wed, 06 Aug 2025 21:32:32 GMT</pubDate></item><item><title><![CDATA[Процесс работы с проектами в SVN]]></title><description><![CDATA[
+Трассировка печатной платы
+Подготовка выходных файлов
+Оформление КД
+Up Подготовка Э3
+Оформление ПЭ3
+]]></description><link>работа-кв-системы/проект-канв800ц12/процесс-работы-с-проектами-в-svn.html</link><guid isPermaLink="false">Работа КВ-Системы/Проект КАНВ800Ц12/Процесс работы с проектами в SVN.md</guid><pubDate>Wed, 06 Aug 2025 21:31:46 GMT</pubDate></item><item><title><![CDATA[Алгоритм trunk]]></title><description><![CDATA[нетдаданетнетдаданетАлгоритм работы с trunkВетка проекта trunkПроверка схемы электрической принципиальнойИзменения нужно внестиИзменения касаются правок печатной платыИзменения нужно учесть в ветке tagsВнесение правок в ветке trunkИзменения не требуютсяВнесение правок в ветке tagsЗакончить проверкуУдалить проект из папки branchesРабота с проектомИзменения актуальны ?Перенести проект в папку trunkbranchesKANV800C12_V18 CEB_KANV800C12_V1gУдалить проект из папки branches]]></description><link>работа-кв-системы/проект-канв800ц12/алгоритм-trunk.html</link><guid isPermaLink="false">Работа КВ-Системы/Проект КАНВ800Ц12/Алгоритм trunk.canvas</guid><pubDate>Sun, 03 Aug 2025 22:31:47 GMT</pubDate></item><item><title><![CDATA[Алгоритм tags]]></title><description><![CDATA[Алгоритм работы с tags<a href=".?query=tag:tags" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#tags">#tags</a>KANV800C12_V1KANV800C12_V1Работа с проектом]]></description><link>работа-кв-системы/проект-канв800ц12/алгоритм-tags.html</link><guid isPermaLink="false">Работа КВ-Системы/Проект КАНВ800Ц12/Алгоритм tags.canvas</guid><pubDate>Sun, 03 Aug 2025 22:31:46 GMT</pubDate></item></channel></rss>
